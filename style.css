@@ -1,0 +1,147 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background: white;
+  font-family: "Poppins", "sans-serif";
+}
+.logo {
+  width: 150px;
+  padding-left: 40px;
+}
+.logo svg {
+  height: 32px;
+  fill: #29d9d5;
+  position: relative;
+  top: 5px;
+}
+nav {
+  width: 100%;
+  height: 70px;
+
+  background: #240d0d;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+h2 {
+  font-weight: bold;
+  display: inline-block;
+}
+.navbar {
+  display: flex;
+  width: 350px;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0.5rem;
+  font-size: 17px;
+  justify-items: center;
+}
+.book {
+  font-size: 15px;
+  padding: 10px;
+  color: #29d9d5;
+  border: 2px solid #29d9d5;
+  border-radius: 30px;
+  margin: 30px;
+}
+.heading {
+  background: rgb(239, 226, 226);
+  padding: 10px;
+  margin: 20px;
+  border-radius: 10px;
+}
+.head {
+  color: blue;
+}
+.subhead {
+  font-weight: 300;
+}
+.images-area {
+  padding: 20px;
+  margin: 55px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  justify-content: center;
+}
+.images {
+  border-radius: 30px;
+}
+.images img {
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+}
+.images:hover {
+  opacity: 0.6;
+  background-image: url("images/camera-icon1.png");
+}
+.blog-text {
+  background: url("images/background_img.jpeg") no-repeat;
+  background-size: cover;
+  height: 400px;
+  text-align: center;
+  background-attachment: fixed;
+}
+.block {
+  height: 75%;
+  width: 50%;
+  margin: auto;
+  position: relative;
+  top: 50px;
+}
+.p1 {
+  color: #29d9d5;
+  font-size: 25px;
+  margin: 10px;
+}
+.p2 {
+  color: rosybrown;
+  font-size: 40px;
+  margin: 10px;
+}
+.p3 {
+  color: rosybrown;
+  font-size: 18px;
+  padding: 10px;
+  margin: 10px;
+  margin-bottom: 50px;
+}
+footer {
+  height: 250px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  color: white;
+  background: black;
+  padding: 30px;
+  gap: 25px;
+}
+.footer #first {
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+.footer #second {
+  font-size: 15px;
+}
+#footer {
+  width: 80%;
+  font-size: 15px;
+  padding: 10px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  border: 2px solid #29d9d5;
+  border-radius: 30px;
+  background: transparent;
+}
+#footer_button {
+  position: relative;
+  left: -30px;
+}
